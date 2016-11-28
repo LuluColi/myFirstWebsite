@@ -16,6 +16,7 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+     <link rel="stylesheet" href="styles/responsive.css">
     <!-- endbuild -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   </head>
@@ -23,35 +24,48 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+  <div class="container-fluid">  
+      <div class="headbg">
+        <img id="phone" src="images/phone.png">
+        <p class="title">ZERO</p>
+        <img id="card" class="desktop-visible" src="images/card.png">
+        <p class="subtitle">ZERO BULLSHIT BANKING</p>
+        <ul class="webnav desktop-visible">
+          <li class="rotate">digital &amp brand</li>
+          <li class="rotate">designed at ueno</li>
+        </ul>
+        <!--mobile top nav-->
+        <ul class="topnav" id="myTopnav">
+          <li>digital &amp brand</li>
+          <li>designed at ueno</li>
+          <li class="icon">
+             <a href="javascript:void(0);" style="font-size:25px;" onclick="myFunction()">&#9776;</a>
+          </li>
+        </ul>
+        <div class="gline"></div>
+        <p class="year">2016</p>
+      </div>
     
-    <div class="headbg">
-      <img id="phone" src="images/phone.png">
-      <p class="title">ZERO</p>
-      <img id="card" src="images/card.png">
-      <p class="subtitle">ZERO BULLSHIT BANKING</p>
-      <ul>
-        <li class="rotate">digital &amp brand</li>
-        <li class="rotate">designed at ueno</li>
-      </ul>
-      <div class="gline"></div>
-      <p class="year">2016</p>
-    </div>
-    <div class="content">
-      <div class="line2"></div>
-      <div class="paral">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-        <p>
-        Zero feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent.</p>
-      </div>
-      <div class="parar">
-        <p>Role</p>
-        <p>
-          orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-        </p>
-      </div>
-    </div>
+        <div class="line2"></div>
+        
+          <div class="col-8 paral">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p>
+            Zero feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent.</p>
+          </div>
+        
+        
+          <div class="col-3 parar">
+            <p>Role</p>
+            <p>
+              orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+            </p>
+          </div>
+        
+      
     <div class="footer">
     </div>
+  </div>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
